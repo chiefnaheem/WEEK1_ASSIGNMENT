@@ -2,4 +2,37 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    background-color: rgb(51, 42, 42);
+}
+h1 {
+    color: bisque;
+    /* background-color:rgb(63, 40, 40); */
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    margin: 3rem;
+}
+.card-title {
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal-content{
+    background-color:white;
+    color: white;
+}
+.close, p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.modal-image {
+    border-radius: 50%;
+    height: 9.5rem;
+    width: 9rem;
+    position: absolute;
+    top: 0;
+    right: 3rem;
 }
